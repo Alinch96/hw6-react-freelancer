@@ -1,0 +1,27 @@
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 12px;
+  padding: 10px 12px;
+  border: 1px solid transparent;
+  transition: background 120ms ease, border-color 120ms ease;
+}
+
+.itemEven {
+  background: rgba(0, 0, 0, 0.02);
+}
+
+.itemOdd {
+  background: #ffffff;
+}
+
+.item:hover {
+  border-color: rgba(249, 115, 22, 0.35);
+  background: rgba(249, 115, 22, 0.06);
+}
+
+.name {
+  font-size: 14px;
+  color: var(--text-main, #1c1c1e);
+}

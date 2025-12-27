@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  max-width: 360px;
+  padding: 18px;
+  border-radius: 16px;
+  border: 1px solid var(--border-subtle, #e4e4e7);
+  background: var(--bg-card, #ffffff);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  display: grid;
+  gap: 12px;
+  justify-items: center;
+  text-align: center;
+}
+
+.iconWrap {
+  color: var(--accent, #f97316);
+}
+
+.size {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-main, #1c1c1e);
+  letter-spacing: 0.02em;
+}
+
+.sizeMobile {
+  font-size: 14px;
+}

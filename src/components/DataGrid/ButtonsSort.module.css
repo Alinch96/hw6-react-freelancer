@@ -1,0 +1,26 @@
+.wrap{
+  display:flex;
+  gap:6px;
+}
+.sortButton{
+  border:1px solid var(--border-subtle);
+  background: #fff;
+  color: var(--text-muted);
+  font-size:12px;
+  padding:6px 8px;
+  border-radius:10px;
+  transition: background .15s ease, border-color .15s ease, color .15s ease, box-shadow .15s ease;
+}
+.sortButton:hover{
+  border-color: rgba(249,115,22,.45);
+  color: var(--text-main);
+}
+.sortButton:focus{
+  outline:none;
+  box-shadow: var(--focus);
+}
+.active{
+  background: var(--accent-soft);
+  border-color: rgba(249,115,22,.55);
+  color: var(--text-main);
+}

@@ -1,0 +1,14 @@
+.row:hover{
+  background: rgba(249,115,22,.06);
+}
+.cell{
+  padding: 10px 12px;
+  border-bottom: 1px solid rgba(212,212,216,.7);
+  font-size: 13px;
+  color: var(--text-main);
+}
+.mono{
+  font-variant-numeric: tabular-nums;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  color: var(--text-muted);
+}
